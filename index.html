@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Letter</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Letter</h1>
+      <h3>Fill in the following information to create your personalized form letter.</h3>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="your-name">Your name:</label>
+            <input id="your-name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="addressee">Addressee:</label>
+            <input id="addressee" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="street">Your Street Address:</label>
+            <input id="street" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">Your Address City:</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="state">Your Address State:</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zip">Your Zip Code:</label>
+            <input id="zip" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+      <hr>
+
+      <div id="letter">
+        <h3>Your personalized form letter:</h3>
+        <hr>
+        <div class="address">
+          <p><span class="your-name"></span></p>
+          <p><span class="street"></span></p>
+          <p><span class="city"></span>, <span class="state"></span> <span class="zip"></span></p>
+        </div>
+        <div class="salutation">
+          <p>Dear <span class="addressee"></span>;</p>
+        </div>
+        <div class="letter-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra massa eget tristique elementum. Proin luctus sollicitudin laoreet. Sed mattis maximus est, sit amet pharetra quam pulvinar vel. Nullam est ipsum, facilisis at placerat vitae, condimentum quis sem. Donec mollis placerat tortor id pretium. Nunc at ex vel lectus consequat cursus non at massa. Pellentesque sed egestas elit. Pellentesque tincidunt faucibus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus arcu, aliquet quis tincidunt egestas, sodales et diam. Sed commodo et sem rutrum tincidunt. Morbi vehicula accumsan orci, ut auctor velit interdum eu. Fusce leo sapien, pretium eu posuere in, sagittis et ipsum.</p>
+
+          <p>Nullam cursus nisi eget nibh facilisis accumsan. Cras ut ex diam. Cras in dolor vitae nulla feugiat accumsan sit amet sit amet enim. Duis feugiat euismod odio non sollicitudin. Donec facilisis vitae eros eu feugiat. Sed finibus sit amet nibh eu maximus. Ut porttitor mauris a neque aliquet, at facilisis ipsum efficitur. In iaculis accumsan nunc blandit consequat. Duis pellentesque ultrices aliquet. Suspendisse potenti. Vestibulum elit metus, eleifend a pharetra quis, vehicula vitae massa. Quisque nec tincidunt nisi. In ut lorem urna.</p>
+        </div>
+        <div class="sign-off">
+          <p>Sincerely,</p>
+          <p><span class="your-name"></span>.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
