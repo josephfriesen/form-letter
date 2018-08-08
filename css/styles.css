@@ -1,3 +1,16 @@
 #letter {
   display: none;
 }
+
+.salutation {
+  text-indent: 3em;
+}
+
+.letter-body {
+  width: 70%;
+  text-align: justify;
+}
+
+.signature {
+  text-align: right;
+}
